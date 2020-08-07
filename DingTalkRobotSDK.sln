@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DingTalkRobotSDK", "src\DingTalkRobotSDK\DingTalkRobotSDK.csproj", "{88600B30-934D-42FF-896D-79D3CD54B39A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DingTalkRobotSDK.Test", "src\DingTalkRobotSDK.Test\DingTalkRobotSDK.Test.csproj", "{48316D13-246A-4EE0-8AF2-5DAAC005907E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Debug|x64.Build.0 = Debug|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Debug|x86.Build.0 = Debug|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Release|x64.ActiveCfg = Release|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Release|x64.Build.0 = Release|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Release|x86.ActiveCfg = Release|Any CPU
+		{88600B30-934D-42FF-896D-79D3CD54B39A}.Release|x86.Build.0 = Release|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Debug|x64.Build.0 = Debug|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Debug|x86.Build.0 = Debug|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Release|x64.ActiveCfg = Release|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Release|x64.Build.0 = Release|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Release|x86.ActiveCfg = Release|Any CPU
+		{48316D13-246A-4EE0-8AF2-5DAAC005907E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8988F82-0CB1-44C1-AA92-477A8163EBCE}
+	EndGlobalSection
+EndGlobal
