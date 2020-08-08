@@ -1,5 +1,6 @@
 ﻿using DingTalkRobotSDK.Models;
 using System;
+using System.Security.Cryptography;
 
 namespace DingTalkRobotSDK.Helper
 {
@@ -11,10 +12,17 @@ namespace DingTalkRobotSDK.Helper
             return Convert.ToInt64(ts.TotalSeconds);
         }
 
-        public static SignModel GetSign()
+        public static SignModel GetSign(string secret)
         {
-
+            var timeStamp = GetTimeStamp().ToString();
+            var encoding = new System.Text.ASCIIEncoding();
+            byte[] keyByte = encoding.GetBytes(secret);
+            byte[] timeStampBytes = encoding.GetBytes(timeStamp); 
+            using (var hmacsha256 = new HMACSHA256(keyByte))
+            {
+                byte[] hashmessage = hmacsha256.ComputeHash(timeStampBytes);
+                return new SignModel(timeStamp, Convert.ToBase64String(hashmessage));
+            }
         }
-
     }
 }
